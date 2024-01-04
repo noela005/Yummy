@@ -1,0 +1,17 @@
+.nav-link{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.6)!important;
+}
+.nav-link.active{
+    border-bottom: 3px solid rgb(207, 62, 62)!important;
+    color: red!important;
+}
+
+#circle-indicator{
+    height:0.5rem ;
+    width: 0.5rem;
+    border-radius: 50%;
+    background-color: red!important;
+    /* position: absolute;
+    z-index: 1!important; */
+}
+

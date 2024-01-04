@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .header-text{
+    font-weight: 600;
+} */
+.section-one{
+   padding-top: 9rem;
+    /* border: 3px solid  blue; */
+    min-height: 100vh;
+}
+.red{
+    background-color: red;
+}
+.span-red{
+    color: red;
+}
+.border-red{
+    border-bottom: 3px solid red;
+}
+.border-hred:hover{
+    border-bottom: 3px solid red;
+}
+.second-dropdown{
+    
+}
+/* About Us Section */
+.aboutus-bg-image{
+    background-image: url(../Images/about.jpg);
+    height: 45rem;
+}
+.about-2-img{
+    width: 25rem;
+}
+.call-us{
+    transform: translateY(500px);
+}
+ .why-us-icon{
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    background-color:rgb(255, 158, 158) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+} 
+
+.why-us-cont{
+    flex: 1;
+    margin-right: 1rem;
+}
+.why-us-cont :hover{
+    transform: scale(1.1);
+}
+.bg-counter{
+    
+    background-image: url(../Images/stats-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgb(219, 214, 214);
+    background-blend-mode: multiply;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    /* padding-top: 50rem; */
+}
+.menu-text-2{
+    font-size: 2.5rem;
+}
+.border-mred{
+    border-bottom: 3px solid rgb(219, 214, 214);
+}
+.border-mred:hover{
+    border-color: red;
+}
+.text-red{
+    color: red;
+}
+/* .nav-link{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.6)!important;
+} */
+.nav-link.active{
+    border-bottom: 3px solid rgb(207, 62, 62)!important;
+    color: red!important;
+}
+
+#circle-indicator{
+    width: 0.7rem!important;
+    height:0.7rem!important ;
+    border-radius: 50%;
+    background-color: red!important;
+    
+} 
+/* .span-quote{
+    font-size: 1rem;
+} */
+.carousel-bg-image1{
+    background-image: url(../Images/events-1.jpg);
+    height: 100vh;
+    border: 1px solid white;
+    text-shadow: 2px 2px 4px #000000;
+    /* background-color: rgb(184, 113, 118);
+    background-blend-mode: color-dodge;   */
+}
+.carousel-bg-image2{
+    background-image: url(../Images/events-2.jpg);
+    height: 100vh;
+    border: 1px solid white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.carousel-bg-image3{
+    background-image: url(../Images/events-3.jpg);
+    height: 100vh;
+    border: 1px solid white;
+    text-shadow: 2px 2px 4px #000000;
+}
+ .second-carousel-text-container{
+    margin-top: 25rem;
+}
+.custom-shape-divider-top-1689586538 {
+    position: absolute;
+    top: 320px;
+    /* left: 0%;
+    right: 0; */
+    width: 94%;   
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(360deg);
+}
+
+.custom-shape-divider-top-1689586538 div svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 200px;
+}
+
+.custom-shape-divider-top-1689586538 .shape-fill {
+    fill: #ffffff;
+}
+.chef-container-hover{
+   border-radius: 6%; 
+}
+.chef-container-hover:hover{
+    transform: scale(1.1);
+    transition: 500ms;
+}
+.chef-icon-container{
+    width: 2.5rem;
+    margin-left: 19rem;
+    transform: translateY(-20rem);
+    border-radius: 8%;
+    /* display: none; */
+    
+}
+/* .chef-icon-container:hover{
+    display: block;
+} */
+.chef-socialmedia-icon i:hover{
+    color: rgb(43, 43, 43)!important;
+    transition-duration: 500ms;
+}
+.wavespng{
+    /* margin-top: -4rem; */
+    height: 3rem;
+    width: 100%;
+}
+.wave-chef-info{
+    margin-top: -2rem;
+}
+.form-button{
+    
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+.map-icon{
+    background-color: red;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    
+}
+.gallery-container{
+    padding-top: 5rem;
+    padding-bottom: 8rem;
+}
+.image-gallery:hover{
+    border: 8px solid red;
+    transform: scale(1.5);
+    transition-duration: 500ms;
+}
+/* .reservation-img{
+    background-image: url(../Images/reservation.jpg);
+    width: 100%;
+    height: 100vh;
+} */
+ /* * For mobile devices * */
+/* @media (max-width: 767px) {
+    .custom-shape-divider-top-1689586538 svg {
+        width: calc(112% + 1.3px);
+        height: 121px;
+    }
+}  */
+
+
+
+/* Media Query */
+@media (max-width: 752px){
+    .why-us-cont{
+        margin-bottom: 1rem!important;
+    }
+}
